@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Brunching Mockup
+    %link{:href => "{{'/assets/main.css' | prepend: site.baseurl}}", :rel => "stylesheet"}
+    %link(href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet" type='text/css')
+  %body
+
+
+    {% include content.haml  %}
+    -#%script{src: "{{ '/assets/javascript/script.css?v=' | append: site.github.build_revision | relative_url }}"}
+    -#%script{:src => "{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"}
+    -#%script{:src => "{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"}
+    %script{:src => "{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"}
