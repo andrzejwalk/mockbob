@@ -1,5 +1,5 @@
-source "https://rubygems.org"
-
-gem 'jekyll-haml-markup', group: :jekyll_plugins
-gem 'github-pages', group: :jekyll_plugins
-
+source 'https://rubygems.org'
+group :development do
+  gem 'jekyll-haml-markup'
+  gem 'github-pages'
+end
