@@ -1,6 +1,11 @@
 ---
 ---
 
-@import "bootstrap/scss/bootstrap";
 @import "variables";
+//@import "bootstrap/scss/bootstrap";
 @import "moje";
+
+.content {
+  font-size: $custom-font-size;
+  //color: $red;
+}
