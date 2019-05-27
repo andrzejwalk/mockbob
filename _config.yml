@@ -1,6 +1,5 @@
 repository: "andrzejwalk/sksa_jekyll"
 
-
 sass:
     load_paths:
       - _sass
