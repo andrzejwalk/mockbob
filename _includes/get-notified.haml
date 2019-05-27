@@ -1,0 +1,20 @@
+.get-notified
+  .jumbotron.d-flex.justify-content-center.align-items-center
+    .jumbo-wrapper
+      %h1 Get notified
+      %p.lead About new leagues and fun events in the city!
+      %hr
+
+      %form
+        .form-row
+          .col
+            %input.form-control{placeholder: "first name"}
+          .col
+            %input.form-control{type: 'email', placeholder: 'email'}
+          .col
+            %select.form-control
+              %option{:value => "1"} Chicago
+              %option{:value => "1"} Boston
+              %option{:value => "2"} New York
+          .col
+            %button.btn.btn-primary{type: 'submit'} Join the brunch ->

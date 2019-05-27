@@ -1,0 +1,14 @@
+.experience
+  .row
+    .col.experience__image
+      %img.img-fluid{:alt => "describe experience image", src: "https://via.placeholder.com/1500"}
+    .col-8.experience__info
+      .experience__desc
+        .experience__header
+          %h2 The Better Off
+          %h1 Brunching Experience
+
+
+        {% include experience__card.haml title="Delicious food" %}
+        {% include experience__card.haml title="Amazing community" %}
+        {% include experience__card.haml title="Unique brunch experience" %}

@@ -1,0 +1,20 @@
+.recent
+  .row.row--padded
+
+    .col
+      %h1 Recent News
+      %ul.card-group
+        {% include card--recent-news.haml title="League information Mailing List" %}
+        {% include card--recent-news.haml title="Brunch currently Opening season" %}
+        {% include card--recent-news.haml title="Brunches currently in registration" %}
+      .view-all
+        %a.btn.btn-secondary.btn-lg.btn-block{href: ''} View all news
+
+    .col
+      %h1 Recent Activity
+      %ul.card-group
+        {% include card--recent-activity.haml  %}
+        {% include card--recent-activity.haml  %}
+        {% include card--recent-activity.haml  %}
+      .view-all
+        %a.btn.btn-secondary.btn-lg.btn-block{href: ''} View all activity

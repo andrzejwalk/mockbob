@@ -9,6 +9,6 @@
 
     {% include content.haml  %}
     -#%script{src: "{{ '/assets/javascript/script.css?v=' | append: site.github.build_revision | relative_url }}"}
-    -#%script{:src => "{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"}
-    -#%script{:src => "{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"}
+    %script{:src => "{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"}
+    %script{:src => "{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"}
     %script{:src => "{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"}
