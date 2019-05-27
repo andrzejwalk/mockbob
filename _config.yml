@@ -1,12 +1,7 @@
+repository: "andrzejwalk/sksa_jekyll"
+
+
 sass:
-  load_paths:
-    - _sass
-    - node_modules
-exclude: 
-  - node_modules
-  - LICENSE
-  - Makefile
-  - README.md
-  - package.json
-  - package-lock.json
-  - yarn.lock
+    load_paths:
+      - _sass
+      - node_modules
